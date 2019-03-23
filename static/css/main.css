@@ -11,6 +11,22 @@ body {
     margin: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #1976d2;
+}
+
+a:visited {
+  color: #7b1fa2;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
 abbr {
   font-variant: none;
   color: green;
